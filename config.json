@@ -1,0 +1,51 @@
+{
+  "enabled": false,
+  "baseToken": "",
+  "accounts": {
+    "tableId": "",
+    "fields": {
+      "name": "账户别名",
+      "currency": "币种",
+      "accountType": "账户类型"
+    }
+  },
+  "headers": {
+    "tableId": "",
+    "fields": {
+      "requestId": "请求ID",
+      "payloadDigest": "请求摘要",
+      "date": "余额截至日",
+      "month": "月份",
+      "accountsFingerprint": "账户清单指纹",
+      "expectedCount": "应录账户数",
+      "frozenAccountIds": "账户清单",
+      "confirmed": "确认提交",
+      "committedAt": "确认时间",
+      "frozenIdsJson": "冻结账户IDJSON",
+      "complete": "批次完整",
+      "effective": "版本生效",
+      "sequence": "顺序",
+      "latestSequence": "最新完整顺序",
+      "title": "提交名称"
+    }
+  },
+  "details": {
+    "tableId": "",
+    "fields": {
+      "requestId": "请求ID",
+      "payloadDigest": "请求摘要",
+      "detailKey": "明细幂等键",
+      "headerId": "提交批次",
+      "accountId": "账户",
+      "accountName": "账户名称",
+      "currency": "币种",
+      "accountType": "账户类型",
+      "assets": "资产余额",
+      "liabilities": "负债余额",
+      "valid": "基础有效",
+      "frozenAccountId": "冻结账户ID",
+      "title": "明细名称"
+    }
+  },
+  "environment": "production"
+}
